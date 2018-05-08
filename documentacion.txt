@@ -1,0 +1,32 @@
+sandra@sandra-PC:~$ hg clone https://github.com/SandraN83/FizzBuzz.git fizzbuzz
+importing git objects into hg
+updating to branch default
+2 files updated, 0 files merged, 0 files removed, 0 files unresolved
+sandra@sandra-PC:~$ cd fizzbuzz
+sandra@sandra-PC:~/fizzbuzz$ gedit parcialito.py
+^C
+sandra@sandra-PC:~/fizzbuzz$ python parcialito.py
+Hola Mundo
+sandra@sandra-PC:~/fizzbuzz$ hg add parcialito.py
+sandra@sandra-PC:~/fizzbuzz$ hg commit "parcialito del campus"
+abort: parcialito del campus: No such file or directory
+sandra@sandra-PC:~/fizzbuzz$ hg commit -m  "parcialito del campus"
+sandra@sandra-PC:~/fizzbuzz$ hg push
+pushing to https://github.com/SandraN83/FizzBuzz.git
+http authorization required for https://github.com/SandraN83/FizzBuzz.git/info/refs
+realm: GitHub
+user: SandraN83
+password: 
+searching for changes
+adding objects
+http authorization required for https://github.com/SandraN83/FizzBuzz.git/git-receive-pack
+realm: GitHub
+user: SandraN83
+password: 
+added 1 commits with 1 trees and 1 blobs
+updating reference refs/heads/master
+sandra@sandra-PC:~/fizzbuzz$ gedit documentacion.txt
+^C     
+sandra@sandra-PC:~/fizzbuzz$ gedit documentacion.txt
+
+
