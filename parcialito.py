@@ -4,3 +4,5 @@ For x in range (1,100): """recorre los numeros del 1 al 100"""
 	
 	elif x % 3 == 0:
 		print (“FIZZ”)"""cuando hay un multiplo de 3 lo reemplaza por la palabra FIZZ"""
+	elif x % 5 ==0:
+		print (“BUZZ”)"""reemplaza los multiplos de 5 con la palabra BUZZ"""
