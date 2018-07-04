@@ -7,5 +7,5 @@ For x in range (1,100): """recorre los numeros del 1 al 100"""
 	elif x % 5 ==0:
 		print (“BUZZ”)"""reemplaza los multiplos de 5 con la palabra BUZZ"""
 	else:
-		print X """muestra los resultados"""
+		print X """imprime la palabra FIZZBUZZ"
 	
